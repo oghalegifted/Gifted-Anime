@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>new project</title>
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+         
+        <!-- my stylessheet -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/5574928097.js" crossorigin="anonymous"></script>
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!-- navigation bar -->
+
+        <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-xl" style="background-color: #1e293b;">
+                <div class="container-fluid">
+                  <a class="navbar-brand mb-0 h1" href="#">Gifted Anime</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Genres
+                        </a>
+                        <ul class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Josei</a>
+                          <a class="dropdown-item" href="#">Seinen</a>
+                          <a class="dropdown-item" href="#">Shoujo</a>
+                          <a class="dropdown-item" href="#">Slice of life</a>
+                          <a class="dropdown-item" href="#">Romance</a>
+                          <a class="dropdown-item" href="#">Isekai</a>
+                          <a class="dropdown-item" href="#">Shonen</a>
+                          <a class="dropdown-item" href="#">Fantasy</a>
+                          <a class="dropdown-item" href="#">Comedy</a>
+                          <a class="dropdown-item" href="#">Action</a>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Info
+                        </a>
+                        <ul class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Updates</a>
+                          <a class="dropdown-item" href="#">Upcomings</a>
+                          <a class="dropdown-item" href="#">Our Newsletter</a>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Accounts
+                        </a>
+                        <ul class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Facebook</a>
+                          <a class="dropdown-item" href="#">Whatsapp</a>
+                          <hr class="dropdown-divider">
+                          <a class="dropdown-item" href="#">Github</a>
+                        </ul>
+                      </li>
+
+                    </ul>
+
+                    <div class="theme">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li  class="nav-item dropdown">
+                          <button class="btn btn-outline-secondary nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" type="submit"><i class="fa-solid fa-moon fa-lg"></i>Theme</button>
+                          <ul class="dropdown-menu">
+                            <a href="#" class="dropdown-item light">Light</a>
+                            <a href="#" class="dropdown-item dark">Dark</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div class="search-btn">
+                      <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Section 1 -->
+
+        <section id="sec-1">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="solo.png" class="d-block carousel-img w-100" alt="solo leveling">
+              </div>
+              <div class="carousel-item">
+                <img src="jjknav.jpg" class="d-block carousel-img w-100" alt="jjk">
+              </div>
+              <div class="carousel-item">
+                <img src="bleach.jpg" class="d-block carousel-img w-100" alt="bleach">
+              </div>
+              <div class="carousel-item">
+                <img src="chainsaw.jpg" class="d-block carousel-img w-100" alt="chainsaw">
+              </div>
+              <div class="carousel-item">
+                <img src="image (13).jpg" class="d-block carousel-img w-100" alt="img-13">
+              </div>
+              <div class="carousel-item">
+                <img src="image (14).jpg" class="d-block carousel-img w-100" alt="img-14">
+              </div>
+              <div class="carousel-item">
+                <img src="demon.jpg" class="d-block carousel-img w-100" alt="demon slayer">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <h1>Watch today’s most in demand <span class="anime">Anime</span></h1>
+          <p class="sec-one-text">Latest and interesting animes that will keep you at the end of your seats. Available for all genre</p>
+          <p class="sec-one-p">
+            <i class="fa-regular fa-square-check fa-xl"></i>
+            Fast and reliable
+          </p>
+          <p  class="sec-one-p">
+            <i class="fa-regular fa-square-check fa-xl"></i>
+            No ads
+          </p>
+          <p class="sec-one-p">
+            <i class="fa-regular fa-square-check fa-xl"></i>
+            All latest shows
+          </p>
+          <p class="sec-one-p">
+            <i class="fa-regular fa-square-check fa-xl"></i>
+            Free with no charges
+          </p>
+
+          <div class="btn-main">
+            <div class="center">
+              <button type="button" class="btn sec-one-btn btn-light">Explore New Anime</button>
+            </div>
+          </div>
+
+        </section>
+
+           
+
+
+
+        <!-- SECTION TWO -->
+
+
+        <section id="sec-2">
+
+
+          <div class="btn-main">
+            <div class="center">
+              <p class="logotxt">TRUSTED BY TOP ANIME STUDIOS</p>
+            </div>
+          </div>
+          <div class="btn-mai">
+              <img src="ufotable.png" class="img" alt="ufotable-logo">
+              <img src="mappa-removebg-preview.png" class="img" alt="mappa-logo">
+              <img src="madhouse-removebg-preview.png" class="img" alt="madhux-logo">
+              <img src="toei-removebg-preview.png" class="img" alt="toei-logo">
+         </div>
+
+        </section>
+
+
+
+
+
+        <!-- SECTION THREE -->
+
+        <section id="sec-3">
+          
+          <h2>Check out these <span class="anime">Anime series</span></h2>
+
+
+          <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+            <div class="col">
+              <div class="card h-100">
+                <img src="bleach (2).jpg" class="card-img-top" alt="bleach">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Bleach</h5></a>
+                  <p class=""></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="naruto.jpg" class="card-img-top" alt="naruto">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Naruto</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="attack on titan.jpg" class="card-img-top" alt="attack-on-titan">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Attack On Titan</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="one piece.jpg" class="card-img-top" alt="one-piece">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">One Piece</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="seven deadly sins.jpg" class="card-img-top" alt="seven">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Seven Deadly Sins</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="vinland saga.jpg" class="card-img-top" alt="vinland">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Vinland Saga</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="demon slayer.jpg" class="card-img-top" alt="demon">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Demon Slayer</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="fire force.jpg" class="card-img-top" alt="fire">
+                <div class="card-body text-bg-secondary">
+                  <a class="nav-link" href="#"><h5 class="card-title">Fire Force</h5></a>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+
+
+
+        <!-- SECTION FOUR -->
+
+
+
+        <section>
+
+
+          <div class="btn-main">
+            <div class="center">
+              <h2 class="sec-4">Build a commuinty <span class="anime">while watching</span> </h2>
+              <p class="sec-4-p">Get to know people and connect with different  anime fans around the world.</p>
+            </div>
+          </div>
+
+
+          <div class="can">
+
+            <div class="" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="afro-american-woman-talking-with-friends-enjoying-time-spend-together.jpg" class="img-fluid rounded-start card mb-3" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body4">
+                    <h5 class="card-title"> <i class="fa-solid fa-people-group"></i>Connect with friends</h5> 
+                    <p class="card-text4">Watch and also connect with other people, making new friends as you enjoy yourself,
+                      building new relationship, and also catching up on the latest anime series.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </section>
+
+
+        <!-- SECTION FIVE -->
+
+
+        <section id="new-anime">
+
+
+          <h2>Upcoming <span class="anime">Anime series</span></h2>
+          <p class="sec-5-p">Catch the latest anime series that are will keep you glued to your screens</p>
+
+          <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+            <div class="col">
+              <div class="card h-100">
+                <img src="classic.jpg" class="card-img-top" alt="classic">
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">Classic★Stars</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Episodes</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="ordinary.jpg" class="card-img-top" alt="ordinary">
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">Shoshimin: How to Become Ordinary 2</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Episodes</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="pyramid.jpg" class="card-img-top" alt="pyramid">
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">Pyramid Game</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Episodes</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="the evil lord.jpg" class="card-img-top" alt="evil lord">
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">I’m the Evil Lord of an Intergalactic Empire!</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Episodes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+
+
+        <!-- SECTION SIX -->
+
+        <section>
+
+          <div class="btn-main6">
+            <div class="center6">
+              <img src="course.8a32bdc7e3c0c4e664cf.png" alt="image" class="sec-6-img">
+              <h2 class="sec-6-p">HAPPY<br> VIEWING</h2>
+            </div>
+          </div>
+          
+
+
+        </section>
+
+        <!-- Footer -->
+
+        <footer id="footer">
+
+
+          <div class="container text-left">
+    
+
+            <div class="row">
+              <div class="col-sm-12 col-lg-4 col-md-6 "><h5>Gifted Anime</h5><p class="footer-p">Gifted Anime is feature-rich 
+                components and beautifully anime website for anime lovers, 
+                built with bootstrap responsive framework.</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="col-sm fo2"><h5>Company</h5>
+                <a class="nav-link footer-p" href="#carouselExampleAutoplaying">Home</a>
+                <a class="nav-link space" href="#new-anime">New anime</a>
+                <a class="nav-link space" href="#footer">contact</a>
+              </div>
+              
+              <div class="col-sm"><h5>Support</h5>
+               <a class="nav-link footer-p" href="">Help</a>
+               <a class="nav-link space" href="#new-anime">Support</a>
+               <a class="nav-link space" href="#footer">send me money</a>
+              </div>
+              <div class="col-sm"><h5>Contact</h5>
+                <p class="footer-p">No 52 omolola avenue off nowhere, Benin City, Edo State, Nigeria.</p>
+                <a class="nav-link space" href="giftedalex361@gmial.com">support@giftedanime.com</a>
+                <a class="nav-link space" href="#footer">+234 811 273 8759</a>
+              </div>
+
+              <hr style="margin-top: 3rem;">
+              <p class="copy">© 2025 Gifted-Anime, Inc. All Rights Reserved</p>
+
+              
+            </div>
+          </div>
+
+
+        </footer>
+
+        <script src="index.js" charset="utf-8"></script>
+
+
+    </body>
+</html>

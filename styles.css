@@ -1,0 +1,371 @@
+
+h1{
+    color: #f1f5f9;
+    text-align: center;
+    padding: 100px 100px 10px 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    font-style: normal;
+}
+
+.h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: normal;
+}
+
+h2 {
+    color: #f1f1f1;
+    padding: 4rem 100px 10px 170px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+}
+
+h4 {
+    padding: 100px 100px 10px 170px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.fa-brands, .fa-solid {
+    padding: 5px;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+}
+
+body {
+    background-color: #0b1324;
+    color: #64748b;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar {
+    padding: 16px 100px;
+}
+
+.navbar-brand {
+    color: #FAF9F7;
+    padding-right: 345px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    color: #FAF9F7;
+}
+
+
+.dropdown-menu {
+    background-color: #1e293b;
+}
+
+/* LIGHT AND DARK MODE  */
+
+.new {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.new-color {
+    color: black;
+}
+
+.one-btn {
+    color: #64748b;
+}
+
+.dropdown-item:hover {
+    color: #754ffe;
+    background-color: #0f172a;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle, .dropdown-item {
+    color: white;
+}
+
+.dropdown-toggle:hover {
+    color: white;
+}
+
+
+/* SECTION ONE */
+
+.anime {
+    color: #754ffe;
+    text-decoration: underline #f59e0b;
+}
+
+.sec-one-text {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0px 20rem;
+}
+
+.fa-square-check {
+    padding-right: 8px;
+    color: green;
+}
+
+.sec-one-p {
+    text-align: center;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-main { 
+    height: 80px;
+    position: relative;
+    border: 3px; 
+}
+
+.sec-one-btn {
+    padding: 20px;
+}
+
+/* SECTION TWO */
+
+.logotxt {
+    font-size: 15px;
+    padding-top: 15rem;
+}
+
+.img {
+    width: 15rem;
+    padding: 2rem; 
+    position: relative;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.btn-mai {
+    padding: 30px 100px 0 200px;
+}
+
+
+/* SECTION THREE */
+
+.row {
+    width: 80rem;
+    padding: 3rem 2rem 9rem 190px;
+}
+
+/* SECTION FOUR */
+
+.sec-4 {
+    width: 50rem;   
+}
+
+.can {
+    padding: 4rem 1rem 0 4rem;
+    height: 23rem;
+}
+
+.card-body4 {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.card-text4 {
+    padding-right: 20rem;
+    padding-top: 15px;
+}
+
+.sec-4-p {
+    font-size: 20px;
+    /* width: 30rem; */
+    text-align: center;
+    padding-left: 40PX;
+    padding-top: 0;
+}
+
+/* SECTION FIVE */
+
+.sec-5-p {
+    text-align: left;
+    padding-left: 170px;
+    font-size: 20px;
+}
+
+
+/* SECTION SIX */
+
+.center6 {
+    border-radius: 20px;
+    background-color: rgb(117, 79, 254) !important;
+    width: 55rem;
+    height: 22rem;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sec-6-img {
+    position: absolute;
+    left: 3rem;
+    top: 3.5rem;
+}
+
+.btn-main6 {
+    padding: 8rem 0 3rem 0;
+}
+
+.sec-6-p {
+    position: absolute;
+    right: 12rem;
+    top: 5rem;
+    font-size: 4rem;
+    padding: 2rem;
+    height: 2rem;
+    width: 5x;
+    text-align: left;
+}
+
+/* FOOTER  */
+
+.container {
+    position: absolute;
+    padding-top: 12rem;
+    padding-left: rem;
+}
+
+.footer-p {
+    text-align: left;
+    margin-right: rem;
+    padding-top: 20px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.space {
+    padding-top: 10px;
+}
+
+.fo2 {
+    margin-left: 95px;
+}
+
+@media (max-width: 1280px) {
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    .navbar {
+        padding: 16px 10px;
+    }
+    .navbar-brand {
+        padding-right: 0;
+    }
+    .sec-one-text {
+        padding: 0 20px;
+        font-size: 27px;
+        text-align: center;
+    }
+    .logotxt {
+        font-size: 15px;
+        padding-top: 15rem;
+        width: 300px;
+        padding-left: 30px;
+    }
+    .btn-mai {
+        padding: 1rem 1rem 0rem 20px ;
+    }
+    .img {
+        padding: 2rem 0 0 2rem;
+        width: 12rem;
+    }
+    .row {
+        width: 25rem;
+        padding: 3rem 0 9rem 3rem;
+    }
+    h2 {
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .sec-4 {
+        width: 450px;
+    }
+    .sec-4-p {
+        text-align: left;
+    }
+    .can {
+        height: 30rem;
+        padding-top: 7rem;
+    }
+    .card-text4 {
+        padding-right: 0rem;
+        padding-top: 10px;
+    }
+    .sec-5-p {
+        text-align: left;
+        padding-left: 3rem;
+        font-size: 20px;
+    }
+    .card-body4 {
+        padding-left: 0;
+        text-align: left;
+    }
+    .center6 {
+        border-radius: 20px;
+        background-color: rgb(117, 79, 254) !important;
+        width: 29rem;
+        height: 22rem;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .sec-6-p {
+        position: absolute;
+        left: 16rem;
+        top: 5rem;
+        font-size: 2.4rem;
+        padding: 2rem;
+        height: 2rem;
+        width: 5x;
+        text-align: left;
+    }
+    .sec-6-img {
+        position: absolute;
+        top: 3.5rem;
+    }
+    .fo2 {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
