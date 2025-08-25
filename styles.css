@@ -276,7 +276,7 @@ body {
     margin-left: 95px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 554px) {
     .dropdown:hover .dropdown-menu {
         display: none;
     }
