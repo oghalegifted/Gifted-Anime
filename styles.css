@@ -1,4 +1,5 @@
 
+
 h1{
     color: #f1f5f9;
     text-align: center;
@@ -184,6 +185,10 @@ body {
     width: 50rem;   
 }
 
+.sec-4-img {
+    max-width: 540px;
+}
+
 .can {
     padding: 4rem 1rem 0 4rem;
     height: 23rem;
@@ -276,93 +281,6 @@ body {
     margin-left: 95px;
 }
 
-@media all and (max-width: 1280px) {
-    .dropdown:hover .dropdown-menu {
-        display: none;
-    }
-    .navbar {
-        padding: 16px 10px;
-    }
-    .navbar-brand {
-        padding-right: 0;
-    }
-    .sec-one-text {
-        padding: 0 20px;
-        font-size: 27px;
-        text-align: center;
-    }
-    .logotxt {
-        font-size: 15px;
-        padding-top: 15rem;
-        width: 300px;
-        padding-left: 30px;
-    }
-    .btn-mai {
-        padding: 1rem 1rem 0rem 20px ;
-    }
-    .img {
-        padding: 2rem 0 0 2rem;
-        width: 12rem;
-    }
-    .row {
-        width: 25rem;
-        padding: 3rem 0 9rem 3rem;
-    }
-    h2 {
-        text-align: left;
-        padding-left: 3rem;
-    }
-    .sec-4 {
-        width: 450px;
-    }
-    .sec-4-p {
-        text-align: left;
-    }
-    .can {
-        height: 30rem;
-        padding-top: 7rem;
-    }
-    .card-text4 {
-        padding-right: 0rem;
-        padding-top: 10px;
-    }
-    .sec-5-p {
-        text-align: left;
-        padding-left: 3rem;
-        font-size: 20px;
-    }
-    .card-body4 {
-        padding-left: 0;
-        text-align: left;
-    }
-    .center6 {
-        border-radius: 20px;
-        background-color: rgb(117, 79, 254) !important;
-        width: 29rem;
-        height: 22rem;
-        position: absolute;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-    .sec-6-p {
-        position: absolute;
-        left: 16rem;
-        top: 5rem;
-        font-size: 2.4rem;
-        padding: 2rem;
-        height: 2rem;
-        width: 5x;
-        text-align: left;
-    }
-    .sec-6-img {
-        position: absolute;
-        top: 3.5rem;
-    }
-    .fo2 {
-        margin-left: 0;
-    }
-}
 
 
 
